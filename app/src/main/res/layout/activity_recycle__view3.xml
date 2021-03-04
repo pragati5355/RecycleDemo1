@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Recycle_View3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="296dp"
+        android:background="@drawable/orangered"
+        android:paddingTop="200dp">
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/CircleImage"
+        android:layout_width="136dp"
+        android:layout_height="114dp"
+        android:src="@drawable/sayali"
+        android:layout_marginVertical="50dp"
+        android:layout_marginHorizontal="145dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" @appsinppuser"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginVertical="180dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="developer@appsinp.com"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginVertical="230dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back To Home"
+        android:textSize="15sp"
+        android:background="@drawable/textround"
+        android:textColor="@color/white"
+        android:layout_marginVertical="275dp"
+        android:layout_marginLeft="65dp"
+        android:paddingLeft="90dp"
+        android:paddingRight="90dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Info"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginVertical="350dp"
+        android:layout_marginHorizontal="50dp"/>
+
+   <ImageView
+       android:layout_width="35dp"
+       android:layout_height="35dp"
+       android:src="@drawable/ic_baseline_person_24"
+       android:layout_marginVertical="400dp"
+       android:layout_marginHorizontal="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="400dp"
+        android:layout_marginHorizontal="90dp"/>
+
+    <TextView
+        android:id="@+id/TxtNameEdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pragati Gawade"
+        android:textSize="13sp"
+        android:textColor="@color/Gray"
+        android:layout_marginVertical="420dp"
+        android:layout_marginHorizontal="90dp"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_baseline_phone_iphone_24"
+        android:layout_marginVertical="470dp"
+        android:layout_marginHorizontal="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="470dp"
+        android:layout_marginHorizontal="90dp"/>
+
+    <TextView
+        android:id="@+id/Txtmobedt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7887939155"
+        android:textSize="13sp"
+        android:textColor="@color/Gray"
+        android:layout_marginVertical="490dp"
+        android:layout_marginHorizontal="90dp"/>
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_baseline_email_24"
+        android:layout_marginVertical="533dp"
+        android:layout_marginHorizontal="43dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="530dp"
+        android:layout_marginHorizontal="90dp"/>
+
+    <TextView
+        android:id="@+id/TxtEmailedt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pragatigawade55@gmail.com"
+        android:textSize="13sp"
+        android:textColor="@color/Gray"
+        android:layout_marginVertical="550dp"
+        android:layout_marginHorizontal="90dp"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_baseline_location_on_24"
+        android:layout_marginVertical="590dp"
+        android:layout_marginHorizontal="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="590dp"
+        android:layout_marginHorizontal="90dp"/>
+
+    <TextView
+        android:id="@+id/TxtAddedt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avenue 2nd Street NW SY."
+        android:textSize="13sp"
+        android:textColor="@color/Gray"
+        android:layout_marginVertical="610dp"
+        android:layout_marginHorizontal="90dp"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_baseline_date_range_24"
+        android:layout_marginVertical="653dp"
+        android:layout_marginHorizontal="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOB"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="650dp"
+        android:layout_marginHorizontal="90dp"/>
+
+    <TextView
+        android:id="@+id/TxtDobedt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9/2/2000"
+        android:textSize="13sp"
+        android:textColor="@color/Gray"
+        android:layout_marginVertical="670dp"
+        android:layout_marginHorizontal="90dp"/>
+
+
+
+
+
+
+
+</RelativeLayout>
